@@ -1,0 +1,15 @@
+plots:
+  plot1.csv:
+    y:
+      - acc
+      - loss
+    x: epoch
+  multi_source_y_list:
+    y:
+      plot1.csv:
+        - acc
+        - loss
+      plot2.csv:
+        - loss
+    x:
+      epoch
